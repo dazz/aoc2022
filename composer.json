@@ -1,0 +1,19 @@
+{
+    "name": "dazz/aoc2022",
+    "type": "project",
+    "require": {
+        "crell/fp": "^0.4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dazz\\Aoc2022\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dazz",
+            "email": "dazz@c-base.org"
+        }
+    ]
+}

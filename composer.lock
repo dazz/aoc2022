@@ -1,0 +1,89 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "566297c0f2bda7dcd332c9917f7b6020",
+    "packages": [
+        {
+            "name": "crell/fp",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crell/fp.git",
+                "reference": "4a2c413b85b5ff48da0d6aa61e2bbe441cf35cea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Crell/fp/zipball/4a2c413b85b5ff48da0d6aa61e2bbe441cf35cea",
+                "reference": "4a2c413b85b5ff48da0d6aa61e2bbe441cf35cea",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.1"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^1.1",
+                "phpstan/phpstan": "^0.12.93",
+                "phpunit/phpunit": "~9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/array.php",
+                    "src/composition.php",
+                    "src/object.php",
+                    "src/string.php"
+                ],
+                "psr-4": {
+                    "Crell\\fp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Larry Garfield",
+                    "email": "larry@garfieldtech.com",
+                    "homepage": "http://www.garfieldtech.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Functional utilities for PHP 8 and later",
+            "homepage": "https://github.com/Crell/fp",
+            "keywords": [
+                "array",
+                "fp",
+                "functional"
+            ],
+            "support": {
+                "issues": "https://github.com/Crell/fp/issues",
+                "source": "https://github.com/Crell/fp/tree/0.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Crell",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-04-21T21:04:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
